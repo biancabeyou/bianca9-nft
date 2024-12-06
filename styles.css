@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+input, select, button, textarea {
+  max-width: 100%;
+}
+
+meter, progress, output {
+  max-width: 100%;
+}
+
+div#tswsidecol {
+  float: right;
+  width: 20%;
+  color: white;
+  background-color: black;
+}
+
+div#tswcontent {
+  float: right;
+  width: 80%;
+  color: white;
+  background-color: black;
+}
+
+@media only screen and ( max-width : 629px ) {
+  div#tswsidecol {
+    float: none;
+    width: 100%;
+  }
+  div#tswcontent {
+    float: none;
+    width: 100%;
+  }
+}
+
+div#tswcontproper {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+div#tswcontainer {
+  background-color: black;
+}
+
+div#tswsideproper, div#tswothersideproper {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+div#tswheader {
+  color: white;
+  background-color: black;
+}
+
+div#tswfooter {
+  color: white;
+  background-color: black;
+}
+
+#logo {
+  display: block;
+  margin: 10px 20px 4px 10px;
+  float: left;
+}
+
+#tswcontproper {
+  margin-left: 10px;
+  color: white;
+  background-color: black;
+}
+
+#page {
+  background-color: black;
+}
+
+#logogeel {
+  display: block;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 12px;
+  margin-right: 30px;
+}
+
